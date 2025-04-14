@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 345px;
+}
+
+header img{
+    width: 100%;
+    height: 345px;
+}
+
+nav{
+    background-color: orangered;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+
+nav a:hover{
+    background-color: white;
+    color: orangered;
+    border-radius: 5px;
+}
+
+.main-content{
+    width:100%;
+    height: 600px;
+}
+
+.main-content aside{
+    float:left;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    box-shadow: 0 0 5px gray;
+    
+}
+
+.main-content aside ul{
+    list-style: none;
+    padding: 20px;
+}
+
+
+.main-content aside ul li{
+    padding: 10px;
+    border-bottom: 1px dotted orangered;
+    
+}
+
+.main-content aside ul li a{
+    text-decoration: none;
+    color: black;
+    background-image: url(image/check.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding: 0px 20px;
+    
+}
+
+.main-content aside ul li a:hover{
+    color: orangered;
+    background-image: url(image/next.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding: 0px 20px;
+}
+
+.main-content article{
+    float: right;
+    width: 75%;
+    height: 600px;
+}
+
+
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    background-color: orangered;
+    color: white;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 500px;
+}
